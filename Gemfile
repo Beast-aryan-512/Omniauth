@@ -19,6 +19,8 @@ gem "omniauth-google-oauth2"
 
 gem "omniauth-rails_csrf_protection"
 
+gem 'activerecord-session_store'
+
 gem 'omniauth-azure-activedirectory-v2'
 
 gem 'omniauth-twitter'
