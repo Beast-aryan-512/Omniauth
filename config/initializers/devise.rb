@@ -277,7 +277,9 @@ Devise.setup do |config|
   config.omniauth :facebook, "1060199797947821", "df38408c5b2bafebd8c768b660b9b53a"
   config.omniauth :twitter, "LUVEVmxRQlV1NTU0bmlhRVpIRUI6MTpjaQ", "gm9mzhwPzzY3xNczmR0EO2fG1lykyXoC-z0cXn7krLKSxFMeUq"
 
+  config.omniauth :twitter2, "LUVEVmxRQlV1NTU0bmlhRVpIRUI6MTpjaQ", "gm9mzhwPzzY3xNczmR0EO2fG1lykyXoC-z0cXn7krLKSxFMeUq"
 
+  config.omniauth :linkedin, "78m8zkg5walmug", 'HxOolvIpvOWgR0CY'
   # config.omniauth :facebook, 
   # Rails.application.credentials.facebook[:1060199797947821], 
   # Rails.application.credentials.facebook[:df38408c5b2bafebd8c768b660b9b53a], token_params: { parse: :json }

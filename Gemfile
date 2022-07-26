@@ -25,6 +25,10 @@ gem 'omniauth-azure-activedirectory-v2'
 
 gem 'omniauth-twitter'
 
+gem 'omniauth-twitter2'
+
+gem 'omniauth-linkedin-oauth2'
+
 gem 'omniauth-github', github: 'omniauth/omniauth-github', branch: 'master'
 
 # Use SCSS for stylesheets

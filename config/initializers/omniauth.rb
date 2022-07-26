@@ -14,6 +14,10 @@
 #   provider :facebook, ENV['1060199797947821'], ENV['df38408c5b2bafebd8c768b660b9b53a']
 # end
 
+# Rails.application.config.middleware.use OmniAuth::Builder do
+#   provider :twitter, "LUVEVmxRQlV1NTU0bmlhRVpIRUI6MTpjaQ", "gm9mzhwPzzY3xNczmR0EO2fG1lykyXoC"
+# end
+
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :twitter, "LUVEVmxRQlV1NTU0bmlhRVpIRUI6MTpjaQ", "gm9mzhwPzzY3xNczmR0EO2fG1lykyXoC"
+  provider :linkedin,"78m8zkg5walmug","HxOolvIpvOWgR0CY"
 end
